@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Traffic Dashboard</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Website Traffic Dashboard</h1>
+        <button id="themeSwitch">Toggle Theme</button>
+    </header>
+
+    <section class="charts">
+        <!-- Univariate Histograms -->
+        {% for feature, plot in histograms.items() %}
+        <div class="chart">
+            <h2>{{ feature }} Distribution</h2>
+            {{ plot | safe }}
+        </div>
+        {% endfor %}
+
+        <!-- Correlation Heatmap -->
+        <div class="chart">
+            <h2>Correlation Matrix</h2>
+            {{ graph_corr | safe }}
+        </div>
+
+        <!-- Scatter: Session Duration vs Conversion Rate -->
+        <div class="chart">
+            <h2>Session Duration vs Conversion Rate</h2>
+            {{ graph_scatter | safe }}
+        </div>
+
+        <!-- Pie: Traffic Source Distribution -->
+        <div class="chart">
+            <h2>Traffic Source Distribution</h2>
+            {{ graph_pie | safe }}
+        </div>
+
+        <!-- Box: Session Duration by Traffic Source -->
+        <div class="chart">
+            <h2>Session Duration by Traffic Source</h2>
+            {{ graph_box | safe }}
+        </div>
+
+        <!-- Scatter: Page Views vs Time on Page by Traffic Source -->
+        <div class="chart">
+            <h2>Page Views vs Time on Page by Traffic Source</h2>
+            {{ graph_scatter2 | safe }}
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
+
+    <script src="../static/control.js"></script>
+</body>
+</html>

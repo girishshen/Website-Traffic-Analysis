@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-theme {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dark-theme header {
+    background-color: #2a2a2a;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+#themeSwitch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.dark-theme #themeSwitch {
+    background: #444;
+    color: #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.chart {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1 1 45%;
+    max-width: 600px;
+}
+
+.dark-theme .chart {
+    background: #2a2a2a;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+}
+
+.dark-theme footer {
+    background-color: #2a2a2a;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.5);
+}
