@@ -4,9 +4,13 @@ Objective of this project is to analyze, visualize, and forecast website traffic
 
 **Tools Used:** Python (pandas, numpy, Matplotlib, Seaborn, Plotly), Jupyter Notebook
 
+---
+
 **Dataset Attribution:**
 Dataset sourced from Kaggle: [Website Traffic](https://www.kaggle.com/datasets/anthonytherrien/website-traffic)  
 CSV files located in `data/raw/` and cleaned data in `data/cleaned/`.
+
+---
 
 **Key Features and Analysis Steps:**
 1. **Data Cleaning:** Handle missing values, session aggregation, and timestamp normalization.
@@ -15,8 +19,10 @@ CSV files located in `data/raw/` and cleaned data in `data/cleaned/`.
 4. **Predictive Modeling:** Develop and evaluate forecasting models (e.g., ARIMA, Prophet) for future traffic predictions.
 5. **Reporting:** Export interactive dashboards and summary reports.
 
+---
+
 For detailed EDA and methodology, see `Analysis.ipynb`.
 
-## Footer
+---
 
 © 2025 Girish Shenoy.
