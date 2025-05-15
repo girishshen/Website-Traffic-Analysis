@@ -1,0 +1,128 @@
+2025-05-05 22:34:05,346 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.0, 'Traffic Source': 120.0, 'Time on Page': 75.0, 'Previous Visits': 4.0}
+2025-05-05 22:34:05,369 - INFO - Predicted Conversion Rate - Random Forest: 0.9974
+2025-05-05 22:34:05,369 - INFO - Predicted Conversion Rate - Gradient Boost: 0.9974
+2025-05-05 22:34:37,015 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 45.0, 'Traffic Source': 2.0, 'Time on Page': 240.0, 'Previous Visits': 3.0}
+2025-05-05 22:34:37,050 - INFO - Predicted Conversion Rate - Random Forest: 0.9974
+2025-05-05 22:34:37,050 - INFO - Predicted Conversion Rate - Gradient Boost: 0.9974
+2025-05-06 15:45:09,970 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 180.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 3.0}
+2025-05-06 15:45:09,997 - INFO - Predicted Conversion Rate - Random Forest: 0.9974
+2025-05-06 15:45:09,997 - INFO - Predicted Conversion Rate - Gradient Boost: 0.9974
+2025-05-06 15:45:40,666 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 180.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 3.0}
+2025-05-06 15:45:40,695 - INFO - Predicted Conversion Rate - Random Forest: 0.9974
+2025-05-06 15:45:40,696 - INFO - Predicted Conversion Rate - Gradient Boost: 0.9974
+2025-05-06 15:46:01,393 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 180.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 3.0}
+2025-05-06 15:46:01,425 - INFO - Predicted Conversion Rate - Random Forest: 0.9974
+2025-05-06 15:46:01,425 - INFO - Predicted Conversion Rate - Gradient Boost: 0.9974
+2025-05-06 17:00:56,894 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 340.0, 'Bounce Rate': 45.0, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-06 17:02:29,767 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 340.0, 'Bounce Rate': 45.0, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 18:49:14,188 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 180.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 18:49:14,189 - ERROR - Prediction failed: Specifying the columns using strings is only supported for dataframes.
+2025-05-07 19:05:33,252 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 180.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:05:33,253 - ERROR - Prediction failed: Specifying the columns using strings is only supported for dataframes.
+2025-05-07 19:12:42,425 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:12:42,426 - ERROR - Prediction failed: Specifying the columns using strings is only supported for dataframes.
+2025-05-07 19:15:52,332 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:15:52,333 - ERROR - Prediction failed: Specifying the columns using strings is only supported for dataframes.
+2025-05-07 19:19:08,153 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:19:08,153 - ERROR - Prediction failed: Specifying the columns using strings is only supported for dataframes.
+2025-05-07 19:40:15,859 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:40:15,880 - INFO - Predictions — RF: 0.9975, GB: 0.9929
+2025-05-07 19:40:53,059 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:40:53,085 - INFO - Predictions — RF: 0.9975, GB: 0.9929
+2025-05-07 19:43:51,801 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:43:51,822 - INFO - Predictions — RF: 0.9975, GB: 0.9929
+2025-05-07 19:44:45,771 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:44:45,800 - INFO - Predictions — RF: 0.9975, GB: 0.9929
+2025-05-07 19:46:57,171 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:46:57,193 - INFO - Predictions - RF: 0.9975, GB: 0.9929
+2025-05-07 19:49:07,431 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 19:49:07,457 - INFO - Predictions - RF: 0.9975, GB: 0.9929
+2025-05-07 20:21:10,251 - INFO - Received input values: {'Page Views': 1200.0, 'Session Duration': 340.0, 'Bounce Rate': 45.5, 'Traffic Source': 2.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-07 20:21:10,281 - INFO - Predictions - RF: 1.00, GB: 1.00
+2025-05-07 20:22:47,736 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 20:22:47,765 - INFO - Predictions - RF: 1.00, GB: 1.00
+2025-05-07 20:26:20,592 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 20:26:20,615 - INFO - Predictions - RF: 1.00, GB: 1.00
+2025-05-07 20:26:54,454 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 20:26:54,479 - INFO - Predictions - RF: 1.00, GB: 1.00
+2025-05-07 20:32:15,067 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 20:32:15,088 - INFO - Raw predictions (0–1 scale) — RF: 0.9971, GB: 0.9678
+2025-05-07 20:32:15,088 - INFO - Final preds: RF: 1.0000, GB: 1.0000
+2025-05-07 20:32:15,089 - INFO - Predictions - RF: 1.00, GB: 1.00
+2025-05-07 20:32:52,292 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 20:32:52,321 - INFO - Raw predictions (0–1 scale) — RF: 0.9971, GB: 0.9678
+2025-05-07 20:32:52,323 - INFO - Final preds: RF: 1.0000, GB: 1.0000
+2025-05-07 20:32:52,324 - INFO - Predictions - RF: 1.00, GB: 1.00
+2025-05-07 20:44:15,983 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 20:44:16,004 - INFO - Raw predictions (0–1 scale) — RF: 0.9971, GB: 0.9678
+2025-05-07 20:44:16,005 - INFO - Final preds: RF: 99.7073, GB: 96.7829
+2025-05-07 22:04:27,888 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:04:27,903 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:04:27,904 - INFO - Final prediction: RF: 0.3437%
+2025-05-07 22:27:48,020 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:27:48,037 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:27:48,038 - INFO - Final prediction: RF: 0.3437%
+2025-05-07 22:37:51,904 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:37:51,921 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:37:51,921 - ERROR - Prediction failed: name 'y_min' is not defined
+2025-05-07 22:38:54,516 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:38:54,532 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:38:54,533 - INFO - Final prediction: RF:  0.99%
+2025-05-07 22:38:54,533 - ERROR - Prediction failed: name 'pred_rf' is not defined
+2025-05-07 22:42:26,840 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:42:26,856 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:42:26,857 - INFO - Final prediction: RF:  0.99%
+2025-05-07 22:42:58,392 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:42:58,410 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:42:58,411 - INFO - Final prediction: RF:  0.99%
+2025-05-07 22:43:49,139 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:43:49,158 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:43:49,158 - INFO - Final prediction: RF:  0.99%
+2025-05-07 22:44:17,157 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:44:17,174 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:44:17,174 - INFO - Final prediction: RF:  0.99%
+2025-05-07 22:52:57,439 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:52:57,460 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:52:57,461 - INFO - Final prediction: RF:  0.99%
+2025-05-07 22:53:26,148 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 22:53:26,166 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 22:53:26,167 - INFO - Final prediction: RF:  0.99%
+2025-05-07 23:08:37,190 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 23:08:37,206 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 23:08:37,207 - INFO - Final prediction: RF:  0.99%
+2025-05-07 23:10:55,691 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 23:10:55,708 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 23:10:55,709 - INFO - Final prediction: RF:  0.99%
+2025-05-07 23:11:40,930 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 23:11:40,946 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 23:11:40,947 - INFO - Final prediction: RF:  0.99%
+2025-05-07 23:11:58,962 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-07 23:11:58,983 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-07 23:11:58,983 - INFO - Final prediction: RF:  0.99%
+2025-05-08 16:34:20,331 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-08 16:34:20,353 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-08 16:34:20,354 - INFO - Final prediction: RF:  0.99%
+2025-05-08 16:38:10,992 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-08 16:38:11,014 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-08 16:38:11,014 - INFO - Final prediction: RF:  0.99%
+2025-05-08 16:38:38,779 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-08 16:38:38,796 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-08 16:38:38,797 - INFO - Final prediction: RF:  0.99%
+2025-05-08 16:40:13,984 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-08 16:40:14,007 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-08 16:40:14,007 - INFO - Final prediction: RF:  0.99%
+2025-05-08 16:47:32,405 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-08 16:47:32,422 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-08 16:47:32,423 - INFO - Final prediction: RF:  0.99%
+2025-05-08 16:48:09,710 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 3.0}
+2025-05-08 16:48:09,729 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-08 16:48:09,732 - INFO - Final prediction: RF:  0.99%
+2025-05-09 20:41:56,608 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 45.5, 'Traffic Source': 1.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-09 20:41:56,664 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-09 20:41:56,665 - INFO - Final prediction: RF:  0.99%
+2025-05-09 20:43:19,320 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 45.5, 'Traffic Source': 1.0, 'Time on Page': 75.2, 'Previous Visits': 4.0}
+2025-05-09 20:43:19,337 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-09 20:43:19,337 - INFO - Final prediction: RF:  0.99%
+2025-05-09 20:44:31,954 - INFO - Received input values: {'Page Views': 1500.0, 'Session Duration': 300.0, 'Bounce Rate': 50.0, 'Traffic Source': 1.0, 'Time on Page': 60.0, 'Previous Visits': 4.0}
+2025-05-09 20:44:31,975 - INFO - Raw prediction (0-1 scale) — RF: 0.0099
+2025-05-09 20:44:31,975 - INFO - Final prediction: RF:  0.99%

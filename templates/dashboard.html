@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Website Traffic Conversion Dashboard</title>
+  <link rel="stylesheet" href="../static/style.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body class="ligh-theme">
+  <div class="header">
+    <h1>Website Traffic Conversion Prediction</h1>
+  </div>
+
+  <!-- Error Banner -->
+  {% if error %}
+    <div class="error">
+      {{ error }}
+    </div>
+  {% endif %}
+
+  <form method="POST" action="/predict" class="form-container">
+    <h2>Enter Website Metrics</h2>
+    <div class="form-grid">
+      {% for f in FEATURES %}
+        <div class="form-group">
+          <label for="{{ f }}">
+            {{ f }}
+          </label>
+          <input type="number" name="{{ f }}" id="{{ f }}" step="any" required>
+        </div>
+        {% endfor %}
+      </div>
+      <button type="submit" class="btn predict-btn">Predict Conversion Rate</button>
+    </form>
+    
+    {% if prediction_rf is not none %}
+    <section class="predictions">
+      <h2>Predicted Conversion Rate: 
+        {{ prediction_rf }} %
+      </h2>
+    </section>
+    {% endif %}
+
+  {% if post_visuals %}
+    <section class="post-visualizations">
+      <h2>Post-Prediction Visualizations</h2>
+      {% for g in post_visuals %}
+        <div class="chart-container">
+          {{ g|safe }}
+        </div>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  <section class="baseline-visualizations">
+    <h2>Baseline Visualizations</h2>
+    {% for g in baseline_graphs %}
+      <div class="chart-container">
+        {{ g|safe }}
+      </div>
+    {% endfor %}
+  </section>
+
+
+  <script src="../static/control.js"></script>
+</body>
+</html>
